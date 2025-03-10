@@ -1,0 +1,174 @@
+/* Paleta de Colores */
+.color1 { background-color: #d4cdc5; } /* Color base claro */
+.color2 { background-color: #5b88a5; } /* Azul suave */
+.color3 { background-color: #f4f4f2; } /* Fondo neutro */
+.color4 { background-color: #191013; } /* Negro intenso */
+.color5 { background-color: #0c2762; } /* Azul oscuro */
+
+.color1-text { color: #d4cdc5; }
+.color2-text { color: #5b88a5; }
+.color3-text { color: #f4f4f2; }
+.color4-text { color: #191013; }
+.color5-text { color: #0c2762; }
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f2; /* Fondo neutro */
+    color: #191013; /* Texto oscuro */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos del Encabezado */
+header {
+    background-color: #243a69; /* Azul oscuro */
+    color: #f4f4f2; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #f4f4f2; /* Texto blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #5b88a5; /* Azul suave */
+}
+
+/* Estilos del Contenido Principal */
+main {
+    padding: 20px;
+    background-color: #f4f4f2; /* Fondo neutro */
+    flex: 1;
+}
+
+main h2 {
+    color: #243a69; /* Azul oscuro */
+}
+
+main p {
+    color: #191013; /* Texto oscuro */
+}
+
+/* Estilos de Sección */
+section {
+    background-color: #d4cdc5; /* Color base claro */
+    border: 1px solid #5b88a5; /* Azul suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del Pie de Página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #243a69; /* Azul oscuro */
+    color: #f4f4f2; /* Texto blanco */
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.kodfun-galeri {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.kodfun-galeri > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, 4, .45, 1.4);
+}
+
+.kodfun-galeri > div:hover {
+    flex: 5;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Estilos de la Sidebar */
+.sidebar {
+    width: 250px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #343a40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+/* Ajuste del contenido principal */
+.content {
+    padding: 20px;
+}
+
+/* ...existing code... */
+
+/* Estilos de la Sidebar */
+.offcanvas {
+    width: 250px;
+}
+
+.offcanvas-body ul {
+    padding: 0;
+    list-style: none;
+}
+
+.offcanvas-body ul li {
+    margin-bottom: 10px;
+}
+
+.offcanvas-body ul li a {
+    color: #343a40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offcanvas-body ul li a:hover {
+    color: #007bff;
+}
+
+/* ...existing code... */
